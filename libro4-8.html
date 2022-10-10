@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>libro html css y javascript</title>
+        <script>
+            function mostraralerta () {
+                alert('hizo clic!');
+            }
+            function hacerclic () {
+                var elemento=document.getElementsByTagName('p')[0];
+                elemento.addEventListener('click', hacerclic, false);
+            }
+            window.addEventListener('load', hacerclic, false);
+        </script>
+        
+    </head>
+    <body>
+        <div id="principal">
+            <p>Hacer Clic</p>
+            <p>No puede hacer clic</p>
+            <h1> libro listado 4-8</h1>
+        </div>
+    </body>
+</html>

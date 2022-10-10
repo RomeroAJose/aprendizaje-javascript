@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header, section, footer,  nav, aside, article, figure, figcaption, hgroup
+{ 
+    display: block;
+    text-align: center;
+}
+ header, nav, footer, aside, article, section
+{ 
+    background-color: cornsilk;
+} 
+h1
+{
+    
+    color: blue;
+    font-size: 25px;
+    font-family:  Helvetica;
+}
+   h2
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+    p
+{
+    font-size: 20px;
+}
+  article
+{
+    font-size: 20px;
+    font-family: Verdana;
+}
+   #agrupar
+{ 
+    width: 512 px;
+    border: 1px solid gray;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+ #cabecera 
+{
+    background: #FFFBB9;
+    border: 5px solid  #FFB90F ;
+    padding: 20px;
+}
+ #menu
+{
+   background: #CCCCCC;
+    padding: 5px 15px;
+}
+    #menu li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;  
+}
+ #seccion 
+ {
+    float: left;
+    width: 660px;
+    margin: 20px;
+}
+ #columna
+{
+ float: left;
+ width: 220px;
+ margin: 20px 0px;
+ padding: 20px;
+}
+#pie
+{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #1d6802;
+}
+
+figcaption
+{
+    
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}

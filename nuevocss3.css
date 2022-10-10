@@ -1,0 +1,74 @@
+body {
+text-align: center;
+border: 1px groove #DDDDDD;
+}
+#principal {
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    
+    border: 29px;
+    -webkit-border-image: url("diamonds.png") 29 stretch;
+    -moz-border-image: url("diamonds.png") 29 stretch;
+    border-image: url("diamonds.png")  29 stretch;
+
+
+    outline: 2px dashed #000099;
+    outline-offset: 15px;
+   
+    -moz-border-radius: 10px 10px 10px 10px; /* asi se le asigna a cada ricon siempre girando a la derecha*/
+    -webkit-border-radius: 10px 10px 10px 10px; /* tmb se puede hace dando los vlores verticales y horizontales*/
+    border-radius: 10px 10px 10px 10px; /* por ejemplo 10px 10px */
+
+    -moz-box-shadow: rgb(150,150,150,150) 5px 5px 10px inset;
+    -webkit-box-shadow: rgb(150,150,150,150) 5px 5px 10px inset;
+     box-shadow: rgb(150,150,150,150) 5px 5px 10px inset; 
+
+    background: -webkit-linear-gradient( top, #ffffff 0%,goldenrod 200%);
+    background: -moz-linear-gradient( top, #ffffff 0%,goldenrod 200%);
+    
+    /* otra forma = background: linear-gradient (30deg, #ffffff, goldenrod);
+                  background: linear-grandiet (top, #ffffff 50%, goldenrod 90%); 
+                  todo estoy cre una degrades de arriba hacia abajo por eso inicia (top)
+                  tmb podria ser top, bottom, left y right. En el caso de (circle y ellipse) crea un "aura".*/
+}
+#titulo {
+    font: bold 36px MiNuevaFuente, verdana, sans-serif ;
+    text-shadow: rgb(0, 0, 0, 0.5) 3px 3px 5px;
+    color: hsla(120, 100%, 50%, 0.5);
+
+}
+@font-face {
+    font-family: 'MiNuevaFuente';
+    src: url('font.ttf');
+}
+samp {
+    font: bold 36px MiNuevaFuente, verdana, sans-serif ;
+    text-shadow: rgb(0, 0, 0, 0.5) 3px 3px 5px;
+    color: hsla(120, 100%, 50%, 0.5);
+
+}
+#paginacion {
+    border: 1px solid #CCC;
+    background-color: #E0E0E0;
+    padding: .5em;
+    overflow: hidden;
+  }
+  .izquierda { float: left; 
+    padding: 35px; }
+  .derecha   { float: right; 
+     padding: 35px;}
+  .centro    { float:left;
+    padding: 35px;
+}
+  
+footer {
+    text-align: right;
+ }
+ h4 {
+    font: bold 36px MiNuevaFuente, verdana, sans-serif ;
+    text-shadow: rgb(0, 0, 0, 0.5) 3px 3px 5px;
+    color: rgba(17, 17, 83, 0.603);
+ }

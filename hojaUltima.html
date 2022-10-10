@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="android-icon-36x36.png">
+    <link rel="stylesheet" href="nuevocss3.css">
+    <title>Otra prueva del libro</title>
+    <script>
+    function mostraralerta( ) {
+        alert('hizo clic!');
+    }
+    function hacerclic ( ) {
+        document.querySelector("#principal p:first-child").onclick=mostraralerta;
+        }
+        window.onload=hacerclic;
+        </script>
+</head>
+
+<body>
+     <div id="paginacion">
+        <header id="principal">
+            <p onclick="alert ('hizo click!')"><samp>Hacer clic</samp></p> 
+            <p>No puede hacer clic</p> 
+            <h3>Esta es la creacion de prueba de Jara.</h3>
+            <h4>Nuevamente javascript en html</h4>
+         </header>
+            <span class="izquierda" onmouseover="alert ('jajaja es una trampa')">&laquo; Anterior</span>
+            <a href="index.html"  ><img src="android-icon-36x36.png"></a>
+            <span class="derecha"   onmouseover="alert ('jajaja es una trampa')">Siguiente &raquo;</span>
+     </div>
+    
+</body>
+
+</html>

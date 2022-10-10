@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header, section, footer,  nav, aside, article, figure, figcaption, hgroup
+{ 
+    display: block;
+    text-align: center;
+}
+ header, nav, footer, aside, article, section
+{ 
+    background-color: cornsilk;
+} 
+hgroup
+{
+    margin-bottom: 10px;
+}
+h1
+{
+    
+    color: blue;
+    font-size: 25px;
+    font-family:  Helvetica;
+}
+   h2
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+    p
+{
+    font-size: 20px;
+}
+  article
+{ 
+    background: #1d6802;
+    border: 1px solid #999;
+    padding: 20px ;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: Verdana;
+}
+article footer
+{
+  text-align: right;
+  margin-top: 20px;
+}
+time
+{
+ color: rgb(48, 82, 65);
+}
+ img
+ {
+  margin: 20px auto;
+ }
+   #agrupar
+{ 
+    text-align: left;
+    width: 512 px;
+    border: 1px solid gray;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+ #cabecera 
+{
+    background: #FFFBB9;
+    border: 5px solid  #FFB90F ;
+    padding: 20px;
+}
+ #menu
+{
+   background: #CCCCCC;
+    padding: 5px 15px;
+}
+    #menu li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;  
+}
+ #seccion 
+ {
+    float: left;
+    width: 860px;
+    margin: 20px;
+}
+ #columna
+{
+  float: left;
+  width: 300px;
+  margin: 20px 0px;
+  padding: 20px;
+}
+#columna blockquote
+{
+   border: 1px solid #FFB90f;
+   padding: 50px;
+   background: #FFFBB9;
+   margin-bottom: 20px;
+
+}
+#pie
+{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #1d6802;
+    background: #2d3436;
+    color: #dfe6e9;
+}
+figcaption
+{
+    
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+#marca_r 
+{
+ width:  10px;
+}

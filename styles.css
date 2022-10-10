@@ -1,0 +1,9 @@
+h1 {
+    color: blue;
+    text-align: center;
+    block-size: auto;
+    font: bold 25px "Times New Roman";
+}
+*{
+    background-color: goldenrod;
+}
